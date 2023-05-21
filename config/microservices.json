@@ -7,6 +7,10 @@
     "modelo02": {
       "version": "V01",
       "url": "http://serving02:8080/predict"
+    },
+    "modelo03": {
+      "version": "V01",
+      "url": "http://serving03:8080/predict"
     }
   }
 }
