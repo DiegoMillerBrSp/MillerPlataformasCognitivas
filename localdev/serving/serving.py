@@ -317,9 +317,9 @@ def call_soma(request = request):
 
 
 if __name__ == '__main__':
-    modelo01 = joblib.load('../models/propensaoinadimplencia.joblib')
-    modelo02 = joblib.load('../models/clusterizacaoclassificacao.joblib')
-    modelo03 = joblib.load('../models/clusterizacaoclassificacao.joblib')
+    modelo01 = joblib.load('../models/modelo01.joblib')
+    modelo02 = joblib.load('../models/modelo02.joblib')
+    modelo03 = joblib.load('../models/modelo03.joblib')
     #modelo03 = joblib.load('../models/modelodeeplearning.joblib')
 
     app.run(port=8080)
