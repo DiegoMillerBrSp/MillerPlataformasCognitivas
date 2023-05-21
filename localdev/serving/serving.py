@@ -25,7 +25,7 @@ app.json_encoder = NpEncoder
 @app.route("/", methods=['GET', 'POST'])
 def call_home(request = request):
     print(request.values)
-    return "SERVER IS RUNNING!"
+    return "SERVER IS RUNNING MILLER!"
 
 #http://127.0.0.1:8080/modelo01?casa_propria=1&renda=333&genero_male=0
 #http://127.0.0.1:8080/modelo01?p1=1&p2=3
