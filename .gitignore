@@ -128,10 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
-
-
-modelo01.joblib
-modelo02.joblib
-mlruns
-serving_resposta.py
+Log/*.log
